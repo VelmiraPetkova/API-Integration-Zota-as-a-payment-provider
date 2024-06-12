@@ -17,13 +17,14 @@ Ensure you have the following installed:
    git clone https://github.com/yourusername/your-repo.git
    cd your-repo
    ```
-Install Dependencies
+<h3>Install Dependencies</h3>
 
-There are no external dependencies for this project other than the Go standard library.
+<p>There are no external dependencies for this project other than the Go standard library.</p>
 
-Functions
-generateSignature(endpointID string, merchantOrderID string, orderAmount string, customerEmail string, merchantSecretKey string) string: Generates a SHA-256 signature required for the deposit request.
-makeDepositRequest(request *DepositRequest) (*DepositResponse, error): Makes a deposit request to the ZotaPay API and returns the response.
+<h3>Functions</h3>
+<p>GenerateSignature(endpointID string, merchantOrderID string, orderAmount string, customerEmail string, merchantSecretKey string) string: 
+Generates a SHA-256 signature required for the deposit request.</p>
+<p>MakeDepositRequest(request *DepositRequest) (*DepositResponse, error): Makes a deposit request to the ZotaPay API and returns the response.</p>
 
 <h3> Example Output </h3>
 <img width="773" alt="image" src="https://github.com/VelmiraPetkova/API-Integration-Zota-as-a-payment-provider/assets/104137851/73043e5e-93a5-45de-8ea8-02578b346cfe">
