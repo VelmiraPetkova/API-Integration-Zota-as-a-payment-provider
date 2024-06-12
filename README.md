@@ -14,8 +14,8 @@ Ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/VelmiraPetkova/API-Integration-Zota-as-a-payment-provider.git
+   cd API-Integration-Zota-as-a-payment-provider
    ```
 <h3>Install Dependencies</h3>
 
