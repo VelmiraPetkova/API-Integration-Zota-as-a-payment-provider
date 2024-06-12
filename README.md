@@ -25,4 +25,6 @@ Functions
 generateSignature(endpointID string, merchantOrderID string, orderAmount string, customerEmail string, merchantSecretKey string) string: Generates a SHA-256 signature required for the deposit request.
 makeDepositRequest(request *DepositRequest) (*DepositResponse, error): Makes a deposit request to the ZotaPay API and returns the response.
 
-Example Output
+<h3> Example Output </h3>
+<img width="773" alt="image" src="https://github.com/VelmiraPetkova/API-Integration-Zota-as-a-payment-provider/assets/104137851/73043e5e-93a5-45de-8ea8-02578b346cfe">
+
